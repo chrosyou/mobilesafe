@@ -176,6 +176,6 @@ public class VersionUpdateUtils {
     }
 
     private void enterhome() {
-        handler.sendEmptyMessageDelayed(MESSAGE_ENTERHOME, 2000);
+        handler.sendEmptyMessageDelayed(MESSAGE_ENTERHOME, 300);
     }
 }
