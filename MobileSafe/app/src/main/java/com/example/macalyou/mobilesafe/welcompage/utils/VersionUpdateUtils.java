@@ -123,7 +123,7 @@ public class VersionUpdateUtils {
         builder.setTitle("检测到新版本：" + versionentity.versioncode);
         builder.setMessage(versionentity.description);
         builder.setCancelable(false);
-        builder.setIcon(R.drawable.ic_launcher);
+        builder.setIcon(R.mipmap.ic_launcher);
 
         builder.setPositiveButton("立即升级", new DialogInterface.OnClickListener() {
             @Override
